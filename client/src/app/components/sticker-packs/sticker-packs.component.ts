@@ -1,28 +1,43 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { StickerPack } from '../../models/sticker-pack';
 import { StickerService } from '../../services/sticker.service';
 
 @Component({
   selector: 'app-sticker-sets',
   template: `
-    <app-sticker-set-preview
+    <a
+      class="pack-link"
       *ngFor="let stickerPack of stickerPacks$ | async"
-      [stickerPack]="stickerPack"
+      [routerLink]="['/pack', stickerPack.id]"
     >
-    </app-sticker-set-preview>
+      <app-sticker-set-preview [stickerPack]="stickerPack">
+      </app-sticker-set-preview>
+    </a>
   `,
   styles: [
     `
       :host {
         display: flex;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        padding-top: 15px;
+      }
+
+      .pack-link {
+        text-decoration: none;
+        margin: 15px;
       }
     `,
   ],
 })
 export class StickerPacksComponent implements OnInit {
-  stickerPacks$ = this.stickerService.stickerPacks$;
+  stickerPacks$: Observable<StickerPack[]>;
 
-  constructor(private stickerService: StickerService) {}
+  constructor(private stickerService: StickerService) {
+    this.stickerPacks$ = this.stickerService.getStickerPacks();
+  }
 
   ngOnInit(): void {}
 }

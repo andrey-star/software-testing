@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StickerPackPreviewComponent } from './components/sticker-pack-preview/sticker-pack-preview.component';
+import { StickerPackComponent } from './components/sticker-pack/sticker-pack.component';
 import { StickerPacksComponent } from './components/sticker-packs/sticker-packs.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { StickerPacksComponent } from './components/sticker-packs/sticker-packs.
     AppComponent,
     StickerPackPreviewComponent,
     StickerPacksComponent,
+    StickerPackComponent,
   ],
   imports: [
     BrowserModule,

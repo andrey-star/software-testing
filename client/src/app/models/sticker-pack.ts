@@ -4,4 +4,5 @@ export interface StickerPack {
   author: string;
   description: string;
   previewUrl: string;
+  stickerUrls: string[];
 }
