@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { map, switchMap } from 'rxjs/operators';
+import { catchError, map, switchMap } from 'rxjs/operators';
 import { StickerPack } from '../../models/sticker-pack';
 import { StickerService } from '../../services/sticker.service';
 
@@ -18,11 +18,13 @@ import { StickerService } from '../../services/sticker.service';
         alt="Sticker"
       />
     </ng-container>
+    <p *ngIf="error">{{ error }}</p>
   `,
   styles: [],
 })
 export class StickerPackComponent {
   stickerPack$: Observable<StickerPack>;
+  error?: string;
 
   constructor(
     private stickerService: StickerService,
@@ -30,7 +32,11 @@ export class StickerPackComponent {
   ) {
     this.stickerPack$ = this.route.paramMap.pipe(
       map((paramMap) => paramMap.get('id')),
-      switchMap((id) => this.stickerService.getStickerPack(+id!))
+      switchMap((id) => this.stickerService.getStickerPack(+id!)),
+      catchError((err) => {
+        this.error = err.error;
+        return [];
+      })
     );
   }
 }
