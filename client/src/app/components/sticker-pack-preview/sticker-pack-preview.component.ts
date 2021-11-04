@@ -4,7 +4,7 @@ import { StickerPack } from '../../models/sticker-pack';
 @Component({
   selector: 'app-sticker-set-preview',
   template: `
-    <mat-card class="example-card mat-elevation-z5">
+    <mat-card class="preview-card mat-elevation-z5">
       <mat-card-header>
         <mat-card-title>{{ stickerPack.name }}</mat-card-title>
         <mat-card-subtitle>{{ stickerPack.author }}</mat-card-subtitle>
@@ -20,11 +20,11 @@ import { StickerPack } from '../../models/sticker-pack';
 
   styles: [
     `
-      .example-card {
+      .preview-card {
         max-width: 200px;
       }
 
-      .example-card:hover {
+      .preview-card:hover {
         background: rgba(0, 0, 0, 0.04);
       }
     `,

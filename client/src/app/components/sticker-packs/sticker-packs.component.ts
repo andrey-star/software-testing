@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { StickerPack } from '../../models/sticker-pack';
 import { StickerService } from '../../services/sticker.service';
@@ -32,12 +32,10 @@ import { StickerService } from '../../services/sticker.service';
     `,
   ],
 })
-export class StickerPacksComponent implements OnInit {
+export class StickerPacksComponent {
   stickerPacks$: Observable<StickerPack[]>;
 
   constructor(private stickerService: StickerService) {
     this.stickerPacks$ = this.stickerService.getStickerPacks();
   }
-
-  ngOnInit(): void {}
 }
