@@ -75,7 +75,8 @@
               "browserTarget": "sticker-frontend:build:production"
             },
             "development": {
-              "browserTarget": "sticker-frontend:build:development"
+              "browserTarget": "sticker-frontend:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

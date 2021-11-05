@@ -13,11 +13,11 @@ const options = {
 
 app.use(cors(options));
 
-app.get("/packs", (req, res) => {
+app.get("/api/packs", (req, res) => {
   res.send(JSON.stringify(packs));
 });
 
-app.get("/pack", (req, res) => {
+app.get("/api/pack", (req, res) => {
   const id = req.query.id;
   const pack = packs.find((pack) => pack.id === +id);
   if (pack) {
@@ -25,6 +25,11 @@ app.get("/pack", (req, res) => {
   } else {
     res.status(404).send(`Invalid id: '${id}'`);
   }
+});
+
+app.use(express.static("../client/dist/sticker-frontend"));
+app.use((req, res) => {
+  res.sendFile("index.html", { root: "../client/dist/sticker-frontend" });
 });
 
 app.listen(PORT, () => {
