@@ -1,4 +1,4 @@
-describe('My First Test', () => {
+describe('Sticker Generator e2e tests', () => {
   beforeEach(() => {
     cy.fixture('packs').then((packs) => {
       cy.intercept(
