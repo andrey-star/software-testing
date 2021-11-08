@@ -41,6 +41,7 @@ describe('Sticker Generator e2e tests', () => {
     it('Goes back to home page on header link click', () => {
       cy.visit('/pack/2');
       cy.contains('Packs').click();
+      cy.url().should('contain', 'packs');
     });
   });
 
