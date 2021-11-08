@@ -1,5 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -8,9 +10,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { LoginComponent } from './components/login/login.component';
 import { StickerPackPreviewComponent } from './components/sticker-pack-preview/sticker-pack-preview.component';
 import { StickerPackComponent } from './components/sticker-pack/sticker-pack.component';
 import { StickerPacksComponent } from './components/sticker-packs/sticker-packs.component';
+
+const firebaseConfig = {
+  apiKey: 'AIzaSyBaQOqFMNUN5PL2po65txSjdCGNBYxdToY',
+  authDomain: 'software-testing-f4e26.firebaseapp.com',
+  projectId: 'software-testing-f4e26',
+  storageBucket: 'software-testing-f4e26.appspot.com',
+  messagingSenderId: '296199048867',
+  appId: '1:296199048867:web:1d8eaa8dd23819f82b7916',
+};
 
 @NgModule({
   declarations: [
@@ -19,6 +31,7 @@ import { StickerPacksComponent } from './components/sticker-packs/sticker-packs.
     StickerPacksComponent,
     StickerPackComponent,
     HeaderComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +41,8 @@ import { StickerPacksComponent } from './components/sticker-packs/sticker-packs.
     MatButtonModule,
     MatToolbarModule,
     HttpClientModule,
+    AngularFireAuthModule,
+    AngularFireModule.initializeApp(firebaseConfig),
   ],
   providers: [],
   bootstrap: [AppComponent],

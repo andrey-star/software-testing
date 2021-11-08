@@ -43,3 +43,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Firebase Service Account
+serviceAccount.json
+cypress.env.json
