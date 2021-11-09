@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "playwright": "cypress run"
+    "playwright": "npx playwright test playwright"
   },
   "private": true,
   "dependencies": {

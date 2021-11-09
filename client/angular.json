@@ -128,7 +128,8 @@
           "options": {
             "devServerTarget": "sticker-frontend:serve",
             "watch": true,
-            "headless": false
+            "headless": false,
+            "video": true
           },
           "configurations": {
             "production": {
