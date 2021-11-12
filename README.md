@@ -29,7 +29,7 @@ Sticker Generator
 * [x] Cypress vs Playwright
   * [Cypress](https://github.com/andrey-star/software-testing/blob/master/client/cypress/integration/spec.ts)
   * [Playwright](https://github.com/andrey-star/software-testing/blob/master/client/playwright/spec.ts)
-* Comparison
+* [x] Comparison
   * [GitHub Pages](https://andrey-star.github.io/software-testing)
 
 ## Launching
