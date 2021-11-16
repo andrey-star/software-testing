@@ -54,25 +54,46 @@ describe('Sticker Generator e2e tests', () => {
 
     it('Logged out - display login button', () => {
       cy.visit('/login');
-      cy.contains('Login with Google');
+      cy.contains('Login');
     });
 
     it('Logged in - display email and logout button', () => {
       cy.visit('/login');
-      cy.login();
-      cy.contains('fastrazor2000@gmail.com');
+      cy.intercept(
+        {
+          method: 'POST',
+          url: '/api/auth/signin',
+        },
+        {
+          user: {
+            username: 'test',
+          },
+        }
+      ).as('getUser');
+      cy.get('input[type=text]').type('test');
+      cy.get('input[type=password]').type('test');
+      cy.get('button[type=submit]').click();
+
+      cy.contains('Hello, test!');
       cy.contains('Log out');
     });
 
     it('Log the user out in log out click', () => {
-      cy.visit('/login');
-      cy.login();
-      cy.contains('Log out').click();
-      cy.contains('Login with Google');
-    });
+      cy.intercept(
+        {
+          method: 'GET',
+          url: '/api/users/0',
+        },
+        {
+          user: {
+            username: 'test',
+          },
+        }
+      ).as('getUser');
 
-    afterEach(() => {
-      cy.logout();
+      cy.visit('/login');
+      cy.contains('Log out').click();
+      cy.contains('Login');
     });
   });
 });

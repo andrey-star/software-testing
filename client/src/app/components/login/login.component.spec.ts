@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { Subject } from 'rxjs';
 import { User } from '../../models/user';
@@ -11,23 +12,21 @@ describe('LoginComponent', () => {
   let fixture: ComponentFixture<LoginComponent>;
 
   beforeEach(async () => {
-    const authService = jasmine.createSpyObj('AuthService', [
-      'googleSignIn',
-      'signOut',
-      'user$',
-    ]);
     const user$ = new Subject<User | null>();
-    const user = { email: 'a@b.c' };
-    spyOnProperty(authService, 'user$', 'get').and.returnValue(user$);
-    authService.signOut.and.callFake(() => {
-      user$.next(user);
-    });
-    authService.googleSignIn.and.callFake(() => {
-      user$.next(null);
-    });
+    const user = { username: 'a@b.c' };
+    const fakeAuthService = {
+      user$,
+      login(u: string, p: string) {
+        user$.next(user);
+      },
+      logout() {
+        user$.next(null);
+      },
+    };
     await TestBed.configureTestingModule({
       declarations: [LoginComponent],
-      providers: [{ provide: AuthService, useValue: authService }],
+      imports: [FormsModule],
+      providers: [{ provide: AuthService, useValue: fakeAuthService }],
     }).compileComponents();
   });
 
@@ -42,7 +41,7 @@ describe('LoginComponent', () => {
   });
 
   it('should create', () => {
-    fixture.debugElement.query(By.css('.sign-in')).nativeElement.click();
+    fixture.debugElement.query(By.css('.login')).nativeElement.click();
     fixture.detectChanges();
     expect(
       fixture.debugElement.query(By.css('.greeting')).nativeElement.textContent

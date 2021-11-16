@@ -1,26 +1,68 @@
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/compat/auth';
-import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
-import { Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { User } from '../models/user';
+import { TokenStorageService } from './token-storage.service';
+
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+};
 
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
-  user$: Observable<User | null>;
+  user$ = new BehaviorSubject<User | null>(null);
 
-  constructor(private afAuth: AngularFireAuth) {
-    this.user$ = this.afAuth.authState;
+  constructor(private http: HttpClient, private storage: TokenStorageService) {
+    this.http.get<User>('/api/users/0', httpOptions).subscribe(
+      (user) => {
+        this.user$.next(user);
+      },
+      (error) => console.log('Unauthorized')
+    );
   }
 
-  async googleSignIn() {
-    const provider = new firebase.auth.GoogleAuthProvider();
-    return await this.afAuth.signInWithPopup(provider);
+  login(username: string, password: string): void {
+    this.http
+      .post<AuthResponse>(
+        '/api/auth/signin',
+        {
+          username,
+          password,
+        },
+        httpOptions
+      )
+      .subscribe((resp) => {
+        this.storage.saveToken(resp.jwt);
+        this.user$.next(resp.user);
+      });
   }
 
-  async signOut() {
-    return await this.afAuth.signOut();
+  register(username: string, password: string): void {
+    this.http
+      .post<AuthResponse>(
+        '/api/auth/signup',
+        {
+          username,
+          password,
+        },
+        httpOptions
+      )
+      .subscribe((resp) => {
+        this.storage.saveToken(resp.jwt);
+        this.user$.next(resp.user);
+      });
   }
+
+  logout() {
+    this.storage.clearToken();
+    this.user$.next(null);
+  }
+}
+
+interface AuthResponse {
+  user: User;
+  jwt: string;
 }
