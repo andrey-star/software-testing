@@ -1,0 +1,36 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+Number+`
+|The internal id of the user
+
+|`+username+`
+|`+String+`
+|The username chosen on registration
+
+|`+roles+`
+|`+Array+`
+|The roles this user belongs to
+
+|`+enabled+`
+|`+Boolean+`
+|Notes whether the account is enabled
+
+|`+authorities+`
+|`+Array+`
+|Same as roles
+
+|`+accountNonExpired+`
+|`+Boolean+`
+|Notes whether the account is expired
+
+|`+accountNonLocked+`
+|`+Boolean+`
+|Notes whether the account is locked
+
+|`+credentialsNonExpired+`
+|`+Boolean+`
+|Notes whether the credentials expired
+
+|===
