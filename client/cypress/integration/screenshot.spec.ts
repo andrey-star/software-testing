@@ -32,7 +32,6 @@ describe('Screenshot tests with cypress', () => {
 
   it(`Open login page`, () => {
     cy.visit('/login');
-    cy.login();
     cy.screenshot();
   });
 });
