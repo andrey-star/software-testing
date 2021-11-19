@@ -1,4 +1,4 @@
 [source,options="nowrap"]
 ----
-{"id":1,"username":"user","roles":[{"id":1,"name":"ROLE_USER","authority":"ROLE_USER"}],"enabled":true,"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true,"authorities":[{"id":1,"name":"ROLE_USER","authority":"ROLE_USER"}]}
+{"id":1,"username":"user","roles":[{"id":1,"name":"ROLE_USER","authority":"ROLE_USER"}],"enabled":true,"authorities":[{"id":1,"name":"ROLE_USER","authority":"ROLE_USER"}],"accountNonExpired":true,"accountNonLocked":true,"credentialsNonExpired":true}
 ----
