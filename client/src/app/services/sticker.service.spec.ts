@@ -1,8 +1,8 @@
-import { HttpClient } from '@angular/common/http';
-import { TestBed } from '@angular/core/testing';
-import { of } from 'rxjs';
+import {HttpClient} from '@angular/common/http';
+import {TestBed} from '@angular/core/testing';
+import {of} from 'rxjs';
 
-import { StickerService } from './sticker.service';
+import {StickerService} from './sticker.service';
 import SpyObj = jasmine.SpyObj;
 
 describe('StickerService', () => {
@@ -11,7 +11,7 @@ describe('StickerService', () => {
   beforeEach(() => {
     http = jasmine.createSpyObj('HttpClient', ['get']);
     TestBed.configureTestingModule({
-      providers: [{ provide: HttpClient, useValue: http }],
+      providers: [{provide: HttpClient, useValue: http}],
     });
     service = TestBed.inject(StickerService);
   });
@@ -66,7 +66,7 @@ describe('StickerService', () => {
     }, done.fail);
     expect(http.get.calls.count()).toBe(1, 'one call');
     expect(http.get.calls.argsFor(0)[0]).toContain(
-      '/pack?id=1',
+      '/pack/1',
       'api endpoint'
     );
   });
