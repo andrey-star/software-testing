@@ -10,14 +10,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-backend:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Set up JDK 17
         uses: actions/setup-java@v2
@@ -27,3 +23,19 @@ jobs:
           cache: 'maven'
       - name: Build with Maven
         run: mvn -f backend --batch-mode --update-snapshots verify
+      
+  build-frontend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Build
+        run: npm --prefix client run build
+      - name: Test
+        run: npm --prefix client test -- --configuration=ci
+      - name: E2E
+        run: npm --prefix client run e2e -- --configuration=ci
