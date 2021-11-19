@@ -3,3 +3,4 @@
 *.iml
 target
 backend/src/main/resources/static
+client/node
