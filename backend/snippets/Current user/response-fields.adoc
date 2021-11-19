@@ -9,7 +9,7 @@
 |`+String+`
 |The username chosen on registration
 
-|`+roles+`
+|`+roles.[]+`
 |`+Array+`
 |The roles this user belongs to
 
@@ -17,7 +17,7 @@
 |`+Boolean+`
 |Notes whether the account is enabled
 
-|`+authorities+`
+|`+authorities.[]+`
 |`+Array+`
 |Same as roles
 
