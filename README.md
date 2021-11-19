@@ -83,7 +83,8 @@ npm run playwright
 * [x] Unit - nothing to test
 * [x] Component, Mockito
     * [PackControllerComponentTest](https://github.com/andrey-star/software-testing/blob/master/backend/src/test/java/sticker/controller/PackControllerComponentTest.java)
-* [ ] TestContainers
+* [x] TestContainers
+    * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/master/backend/src/test/java/sticker/controller/UserControllerTest.java)
 
 ### Bonus
 
@@ -91,11 +92,16 @@ npm run playwright
     * [AuthController](https://github.com/andrey-star/software-testing/blob/master/backend/src/main/java/sticker/auth/AuthController.java)
     * [Tests](https://github.com/andrey-star/software-testing/blob/master/backend/src/test/java/sticker/auth/AuthControllerTest.java)
     * [AuthInterceptor](https://github.com/andrey-star/software-testing/blob/master/client/src/app/services/auth.interceptor.ts)
-* [x] Frontend - Backend
-* [ ] Spring Test Configuration
+* [x] Frontend - Backend interaction
+* [x] Spring Test Configuration
+    * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/master/backend/src/test/java/sticker/controller/UserControllerTest.java)
+      uses
+      separate [application.properties](https://github.com/andrey-star/software-testing/blob/master/backend/src/test/resources/application-testcontainers.properties)
+      for Testcontainers setup
 * [x] [Spring REST docs](https://github.com/andrey-star/software-testing/tree/master/backend/snippets/Current%20user)
 
 Possible additional tests:
+
 * e2e for all controllers
 * exception handling
 
