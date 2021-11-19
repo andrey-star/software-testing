@@ -1,5 +1,7 @@
 # software-testing
 
+[![CI](https://github.com/andrey-star/software-testing/actions/workflows/main.yml/badge.svg)](https://github.com/andrey-star/software-testing/actions/workflows/main.yml)
+
 Sticker Generator
 
 ## hw1 - frontend
@@ -113,8 +115,13 @@ Define
 * `JDBC_DATABASE_USERNAME`
 * `JDBC_DATABASE_PASSWORD`
 * `JWT_SECRET`
-*
 
 ```shell
 mvn spring-boot:run
 ```
+
+## hw3 - CI/CD. GitHub actions.
+
+### Main
+
+* [Testing workflow](https://github.com/andrey-star/software-testing/blob/master/.github/workflows/main.yml)
