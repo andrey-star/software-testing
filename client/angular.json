@@ -141,6 +141,11 @@
           "configurations": {
             "production": {
               "devServerTarget": "sticker-frontend:serve:production"
+            },
+            "ci": {
+              "watch": false,
+              "headless": true,
+              "video": false
             }
           }
         }
