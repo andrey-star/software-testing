@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import { StickerPack } from '../../models/sticker-pack';
-import { StickerService } from '../../services/sticker.service';
+import {Component} from '@angular/core';
+import {Observable} from 'rxjs';
+import {StickerPack} from '../../models/sticker-pack';
+import {StickerService} from '../../services/sticker.service';
 
 @Component({
   selector: 'app-sticker-sets',
@@ -9,7 +9,7 @@ import { StickerService } from '../../services/sticker.service';
     <a
       class="pack-link"
       *ngFor="let stickerPack of stickerPacks$ | async"
-      [routerLink]="['/pack', stickerPack.id]"
+      [routerLink]="['/packs', stickerPack.id]"
     >
       <app-sticker-set-preview [stickerPack]="stickerPack">
       </app-sticker-set-preview>

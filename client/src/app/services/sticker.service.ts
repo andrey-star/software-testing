@@ -15,6 +15,6 @@ export class StickerService {
   }
 
   getStickerPack(id: number): Observable<StickerPack> {
-    return this.http.get<StickerPack>(`/api/pack/${id}`);
+    return this.http.get<StickerPack>(`/api/packs/${id}`);
   }
 }

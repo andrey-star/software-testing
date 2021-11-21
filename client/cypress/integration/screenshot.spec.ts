@@ -11,14 +11,14 @@ describe('Screenshot tests with cypress', () => {
       cy.intercept(
         {
           method: 'GET',
-          url: '/api/pack/1',
+          url: '/api/packs/1',
         },
         packs[0]
       ).as('getStickerPack');
       cy.intercept(
         {
           method: 'GET',
-          url: '/api/pack/2',
+          url: '/api/packs/2',
         },
         packs[1]
       ).as('getStickerPack');

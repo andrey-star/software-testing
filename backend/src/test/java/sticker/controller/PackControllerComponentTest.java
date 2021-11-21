@@ -12,6 +12,7 @@ import sticker.model.Pack;
 import sticker.service.PackService;
 
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
@@ -34,7 +35,7 @@ class PackControllerComponentTest {
         pack.setId(1);
         pack.setAuthor("@test");
         pack.setDescription("test pack");
-        when(packService.getPackById(1)).thenReturn(pack);
+        when(packService.getPackById(1)).thenReturn(Optional.of(pack));
 
         Pack actualPack = controller.getPack(1);
 

@@ -5,6 +5,7 @@ import sticker.model.Pack;
 import sticker.repository.PackRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PackService {
@@ -19,7 +20,7 @@ public class PackService {
         return repository.findAll();
     }
 
-    public Pack getPackById(long packId) {
-        return repository.getById(packId);
+    public Optional<Pack> getPackById(long packId) {
+        return repository.findById(packId);
     }
 }

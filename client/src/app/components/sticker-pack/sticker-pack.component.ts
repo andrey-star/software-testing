@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
-import { catchError, map, switchMap } from 'rxjs/operators';
-import { StickerPack } from '../../models/sticker-pack';
-import { StickerService } from '../../services/sticker.service';
+import {Component} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {Observable} from 'rxjs';
+import {catchError, map, switchMap} from 'rxjs/operators';
+import {StickerPack} from '../../models/sticker-pack';
+import {StickerService} from '../../services/sticker.service';
 
 @Component({
   selector: 'app-sticker-pack',
@@ -35,6 +35,7 @@ export class StickerPackComponent {
       switchMap((id) => this.stickerService.getStickerPack(+id!)),
       catchError((err) => {
         this.error = err.error;
+        console.log(err.error);
         return [];
       })
     );

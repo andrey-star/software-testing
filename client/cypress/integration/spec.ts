@@ -12,14 +12,14 @@ describe('Sticker Generator e2e tests', () => {
         cy.intercept(
           {
             method: 'GET',
-            url: '/api/pack/1',
+            url: '/api/packs/1',
           },
           packs[0]
         ).as('getStickerPack');
         cy.intercept(
           {
             method: 'GET',
-            url: '/api/pack/2',
+            url: '/api/packs/2',
           },
           packs[1]
         ).as('getStickerPack');
@@ -34,12 +34,12 @@ describe('Sticker Generator e2e tests', () => {
     it('Visits pack page after click', () => {
       cy.visit('/');
       cy.contains('test pack 2').last().click();
-      cy.url().should('contain', 'pack/2');
+      cy.url().should('contain', 'packs/2');
       cy.contains('Funny test pack 2');
     });
 
     it('Goes back to home page on header link click', () => {
-      cy.visit('/pack/2');
+      cy.visit('/packs/2');
       cy.contains('Packs').click();
       cy.url().should('contain', 'packs');
     });

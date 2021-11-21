@@ -26,7 +26,7 @@ public class PackController {
 
     @GetMapping("/{packId}")
     public Pack getPack(@PathVariable long packId) {
-        return packService.getPackById(packId);
+        return packService.getPackById(packId).get();
     }
 
 }

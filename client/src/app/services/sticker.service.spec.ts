@@ -66,7 +66,7 @@ describe('StickerService', () => {
     }, done.fail);
     expect(http.get.calls.count()).toBe(1, 'one call');
     expect(http.get.calls.argsFor(0)[0]).toContain(
-      '/pack/1',
+      '/packs/1',
       'api endpoint'
     );
   });
