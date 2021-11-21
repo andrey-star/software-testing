@@ -124,9 +124,10 @@ mvn spring-boot:run
 
 ### Main
 
-* [x] [Testing workflow](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/main.yml)
+* [x] Testing workflow
+    * [main.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/main.yml)
 
 ### Advanced
 
-* [x] [Deployment workflow](https://github.com/andrey-str/software-testing/blob/main/.github/workflows/deploy.yml)
-  (heroku)
+* [x] Deployment workflow (heroku)
+    * [deploy.yml](https://github.com/andrey-str/software-testing/blob/main/.github/workflows/deploy.yml)
