@@ -1,18 +1,43 @@
-import { attachCustomCommands } from 'cypress-firebase';
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/database';
-import 'firebase/compat/firestore';
-
-const firebaseConfig = {
-  apiKey: 'AIzaSyBaQOqFMNUN5PL2po65txSjdCGNBYxdToY',
-  authDomain: 'software-testing-f4e26.firebaseapp.com',
-  projectId: 'software-testing-f4e26',
-  storageBucket: 'software-testing-f4e26.appspot.com',
-  messagingSenderId: '296199048867',
-  appId: '1:296199048867:web:1d8eaa8dd23819f82b7916',
-};
-
-firebase.initializeApp(firebaseConfig);
-
-attachCustomCommands({ Cypress, cy, firebase });
+// ***********************************************
+// This example namespace declaration will help
+// with Intellisense and code completion in your
+// IDE or Text Editor.
+// ***********************************************
+// declare namespace Cypress {
+//   interface Chainable<Subject = any> {
+//     customCommand(param: any): typeof customCommand;
+//   }
+// }
+//
+// function customCommand(param: any): void {
+//   console.warn(param);
+// }
+//
+// NOTE: You can use it like so:
+// Cypress.Commands.add('customCommand', customCommand);
+//
+// ***********************************************
+// This example commands.js shows you how to
+// create various custom commands and overwrite
+// existing commands.
+//
+// For more comprehensive examples of custom
+// commands please read more here:
+// https://on.cypress.io/custom-commands
+// ***********************************************
+//
+//
+// -- This is a parent command --
+// Cypress.Commands.add("login", (email, password) => { ... })
+//
+//
+// -- This is a child command --
+// Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
+//
+//
+// -- This is a dual command --
+// Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
+//
+//
+// -- This will overwrite an existing command --
+// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
