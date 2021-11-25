@@ -130,4 +130,4 @@ mvn spring-boot:run
 ### Advanced
 
 * [x] Deployment workflow (heroku)
-    * [deploy.yml](https://github.com/andrey-str/software-testing/blob/main/.github/workflows/deploy.yml)
+    * [deploy.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/deploy.yml)
