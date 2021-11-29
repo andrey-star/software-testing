@@ -1,0 +1,81 @@
+{
+  "uid" : "4f2442f3c531ee7f",
+  "name" : "testSignIn_UserDoesntExist()",
+  "fullName" : "sticker.auth.AuthControllerTest.testSignIn_UserDoesntExist",
+  "historyId" : "71a3eb7bacf6d6b80e5058a94ff60285",
+  "time" : {
+    "start" : 1638184898980,
+    "stop" : 1638184899314,
+    "duration" : 334
+  },
+  "description" : "Fail sign in with non-existent user {username: 'no-user', 'password': 'user'}",
+  "descriptionHtml" : "<p>Fail sign in with non-existent user {username: 'no-user', 'password': 'user'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testSignIn_UserDoesntExist()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-931"
+  }, {
+    "name" : "thread",
+    "value" : "2911@fv-az37-931.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSignIn_UserDoesntExist"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f2de3f1037ef8595",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/f2de3f1037ef8595",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184356087,
+          "stop" : 1638184356316,
+          "duration" : 229
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4f2442f3c531ee7f.json",
+  "parameterValues" : [ ]
+}

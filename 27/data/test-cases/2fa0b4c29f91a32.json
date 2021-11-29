@@ -1,0 +1,80 @@
+{
+  "uid" : "2fa0b4c29f91a32",
+  "name" : "testGetPacks()",
+  "fullName" : "sticker.controller.PackControllerComponentTest.testGetPacks",
+  "historyId" : "1aafc91174e4030d1cf5cea274b23271",
+  "time" : {
+    "start" : 1638184900788,
+    "stop" : 1638184900791,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.controller.PackControllerComponentTest]/[method:testGetPacks()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-931"
+  }, {
+    "name" : "thread",
+    "value" : "2911@fv-az37-931.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetPacks"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bdfe7e5effb58e08",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/bdfe7e5effb58e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184357681,
+          "stop" : 1638184357684,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2fa0b4c29f91a32.json",
+  "parameterValues" : [ ]
+}

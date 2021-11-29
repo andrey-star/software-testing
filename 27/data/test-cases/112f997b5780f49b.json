@@ -1,0 +1,122 @@
+{
+  "uid" : "112f997b5780f49b",
+  "name" : "testCurrentUser()",
+  "fullName" : "sticker.controller.UserControllerTest.testCurrentUser",
+  "historyId" : "de7367e277d0d8f442f27c16fbf41b3f",
+  "time" : {
+    "start" : 1638184919464,
+    "stop" : 1638184919650,
+    "duration" : 186
+  },
+  "description" : "Get current user with credentials {username: 'user', password: 'user'}",
+  "descriptionHtml" : "<p>Get current user with credentials {username: 'user', password: 'user'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Get current user with credentials {username: 'user', password: 'user'}",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Assert PostgreSQL container is running",
+      "time" : {
+        "start" : 1638184919508,
+        "stop" : 1638184919508,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request current user",
+      "time" : {
+        "start" : 1638184919513,
+        "stop" : 1638184919513,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.controller.UserControllerTest]/[method:testCurrentUser()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-931"
+  }, {
+    "name" : "thread",
+    "value" : "2911@fv-az37-931.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.controller.UserControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.controller.UserControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCurrentUser"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.controller.UserControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "88a357aa4a527812",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/88a357aa4a527812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184374219,
+          "stop" : 1638184374382,
+          "duration" : 163
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "112f997b5780f49b.json",
+  "parameterValues" : [ ]
+}

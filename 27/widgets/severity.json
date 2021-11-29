@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2fa0b4c29f91a32",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1638184900788,
+    "stop" : 1638184900791,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "569cf24a410e8a3",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1638184899942,
+    "stop" : 1638184900032,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8dd3a1c41829f3c",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1638184900044,
+    "stop" : 1638184900046,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7969f9f41bece8",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1638184899716,
+    "stop" : 1638184899939,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b2a07d98f23fa8e",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1638184899500,
+    "stop" : 1638184899707,
+    "duration" : 207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68914620ce5b6cf1",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1638184899365,
+    "stop" : 1638184899491,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "203563142590330",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1638184900765,
+    "stop" : 1638184900783,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "112f997b5780f49b",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1638184919464,
+    "stop" : 1638184919650,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f2442f3c531ee7f",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1638184898980,
+    "stop" : 1638184899314,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "982113ef7373a4b1",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1638184919359,
+    "stop" : 1638184919456,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,81 @@
+{
+  "uid" : "7b2a07d98f23fa8e",
+  "name" : "testRegister()",
+  "fullName" : "sticker.auth.AuthControllerTest.testRegister",
+  "historyId" : "17dbd79cd9d4086a682cfb6b7d2aae03",
+  "time" : {
+    "start" : 1638184899500,
+    "stop" : 1638184899707,
+    "duration" : 207
+  },
+  "description" : "Register new user {username: 'user2', 'password': 'user2'}",
+  "descriptionHtml" : "<p>Register new user {username: 'user2', 'password': 'user2'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testRegister()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-931"
+  }, {
+    "name" : "thread",
+    "value" : "2911@fv-az37-931.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "bb0636b6abaa4c16",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/bb0636b6abaa4c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184356473,
+          "stop" : 1638184356649,
+          "duration" : 176
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7b2a07d98f23fa8e.json",
+  "parameterValues" : [ ]
+}

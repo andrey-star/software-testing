@@ -1,0 +1,136 @@
+{
+  "uid" : "203563142590330",
+  "name" : "testGetPackById()",
+  "fullName" : "sticker.controller.PackControllerComponentTest.testGetPackById",
+  "historyId" : "19c36b3472dcac6a2744715db673eb30",
+  "time" : {
+    "start" : 1638184900765,
+    "stop" : 1638184900783,
+    "duration" : 18
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create mock pack",
+      "time" : {
+        "start" : 1638184900768,
+        "stop" : 1638184900769,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get pack",
+      "time" : {
+        "start" : 1638184900779,
+        "stop" : 1638184900779,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert result",
+      "time" : {
+        "start" : 1638184900781,
+        "stop" : 1638184900781,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.controller.PackControllerComponentTest]/[method:testGetPackById()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az37-931"
+  }, {
+    "name" : "thread",
+    "value" : "2911@fv-az37-931.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetPackById"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c89ac7482e582152",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/c89ac7482e582152",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184357662,
+          "stop" : 1638184357677,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "203563142590330.json",
+  "parameterValues" : [ ]
+}
