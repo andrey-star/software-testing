@@ -34,11 +34,11 @@ jobs:
           allure_results: backend/allure-results
       - name: Deploy report to Github Pages
         uses: peaceiris/actions-gh-pages@v2
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
-          DESTINATION_DIR: allure
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
+          destination_dir: allure
 
   build-frontend:
     runs-on: ubuntu-latest
