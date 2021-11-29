@@ -36,9 +36,9 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: allure-history
-          destination_dir: allure
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+          DESTINATION_DIR: allure
 
   build-frontend:
     runs-on: ubuntu-latest
