@@ -4,35 +4,36 @@
 
 [Sticker Generator](https://sticker-gen.herokuapp.com/)
 
+___
 ## hw1 - frontend
 
 ### Main
 
 * [x] Unit
-    * [StickerService](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/sticker.service.spec.ts)
+  * [StickerService](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/sticker.service.spec.ts)
 * [x] Component
-    * [StickerPacksComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/sticker-packs/sticker-packs.component.spec.ts)
-    * [StickerPackPreviewComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/sticker-pack-preview/sticker-pack-preview.component.spec.ts)
+  * [StickerPacksComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/sticker-packs/sticker-packs.component.spec.ts)
+  * [StickerPackPreviewComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/sticker-pack-preview/sticker-pack-preview.component.spec.ts)
 * [x] e2e
-    * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
-    * [Playwright](https://github.com/andrey-star/software-testing/blob/main/client/playwright/spec.ts)
+  * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
+  * [Playwright](https://github.com/andrey-star/software-testing/blob/main/client/playwright/spec.ts)
 
 ### Advanced
 
 * [x] Auth
-    * [AuthService](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/auth.service.ts)
-    * [LoginComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/login/login.component.ts)
+  * [AuthService](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/auth.service.ts)
+  * [LoginComponent](https://github.com/andrey-star/software-testing/blob/main/client/src/app/components/login/login.component.ts)
 * [x] Tests
-    * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
+  * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
 * [x] Suites
 
 ### Bonus
 
 * [x] Cypress vs Playwright
-    * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
-    * [Playwright](https://github.com/andrey-star/software-testing/blob/main/client/playwright/spec.ts)
+  * [Cypress](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
+  * [Playwright](https://github.com/andrey-star/software-testing/blob/main/client/playwright/spec.ts)
 * [x] Comparison
-    * [GitHub Pages](https://andrey-star.github.io/software-testing)
+  * [GitHub Pages](https://andrey-star.github.io/software-testing-report)
 
 ## Launching
 
@@ -75,31 +76,31 @@ npm run e2e
 ```shell
 npm run playwright
 ```
-
+___
 ## hw2 - backend
 
 ### Main
 
 * [x] Controller
-    * [PackController](https://github.com/andrey-star/software-testing/blob/main/backend/src/main/java/sticker/controller/PackController.java)
+  * [PackController](https://github.com/andrey-star/software-testing/blob/main/backend/src/main/java/sticker/controller/PackController.java)
 * [x] Unit - nothing to test
 * [x] Component, Mockito
-    * [PackControllerComponentTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/PackControllerComponentTest.java)
+  * [PackControllerComponentTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/PackControllerComponentTest.java)
 * [x] TestContainers
-    * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/UserControllerTest.java)
+  * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/UserControllerTest.java)
 
 ### Bonus
 
 * [x] Auth with JWT
-    * [AuthController](https://github.com/andrey-star/software-testing/blob/main/backend/src/main/java/sticker/auth/AuthController.java)
-    * [Tests](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/auth/AuthControllerTest.java)
-    * [AuthInterceptor](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/auth.interceptor.ts)
+  * [AuthController](https://github.com/andrey-star/software-testing/blob/main/backend/src/main/java/sticker/auth/AuthController.java)
+  * [Tests](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/auth/AuthControllerTest.java)
+  * [AuthInterceptor](https://github.com/andrey-star/software-testing/blob/main/client/src/app/services/auth.interceptor.ts)
 * [x] Frontend - Backend interaction
 * [x] Spring Test Configuration
-    * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/UserControllerTest.java)
-      uses
-      separate [application.properties](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/resources/application-testcontainers.properties)
-      for Testcontainers setup
+  * [UserControllerTest](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/java/sticker/controller/UserControllerTest.java)
+    uses
+    separate [application.properties](https://github.com/andrey-star/software-testing/blob/main/backend/src/test/resources/application-testcontainers.properties)
+    for Testcontainers setup
 * [x] [Spring REST docs](https://github.com/andrey-star/software-testing/tree/main/backend/snippets/Current%20user)
 
 Possible additional tests:
@@ -119,15 +120,21 @@ Define
 ```shell
 mvn spring-boot:run
 ```
-
+___
 ## hw3 - CI/CD. GitHub actions.
 
 ### Main
 
 * [x] Testing workflow
-    * [main.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/main.yml)
+  * [main.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/main.yml)
 
 ### Advanced
 
 * [x] Deployment workflow (heroku)
-    * [deploy.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/deploy.yml)
+  * [deploy.yml](https://github.com/andrey-star/software-testing/blob/main/.github/workflows/deploy.yml)
+
+___
+## hw4 - Allure.
+
+### Bonus
+* [x] [Allure report](https://andrey-star.github.io/software-testing)
