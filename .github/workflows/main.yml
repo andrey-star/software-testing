@@ -23,7 +23,23 @@ jobs:
           cache: 'maven'
       - name: Build with Maven
         run: mvn -f backend --batch-mode --update-snapshots verify
-      
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        with:
+          subfolder: backend
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+
   build-frontend:
     runs-on: ubuntu-latest
 

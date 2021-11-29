@@ -1,5 +1,6 @@
 package sticker.controller;
 
+import io.qameta.allure.Description;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;
@@ -14,6 +15,7 @@ import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
+import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.springframework.restdocs.mockmvc.MockMvcRestDocumentation.document;
 import static org.springframework.restdocs.payload.PayloadDocumentation.*;
@@ -43,8 +45,11 @@ class UserControllerTest {
 
     @Test
     @WithUserDetails
+    @Description("Get current user with credentials {username: 'user', password: 'user'}")
     public void testCurrentUser() throws Exception {
+        step("Assert PostgreSQL container is running");
         assertTrue(postgresqlContainer.isRunning());
+        step("Request current user");
         mockMvc.perform(get("/api/users/0"))
                .andExpect(status().isOk())
                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
@@ -63,10 +68,9 @@ class UserControllerTest {
 
     @Test
     @WithAnonymousUser
+    @Description("Fail to get current user when unauthorized")
     public void testCurrentUser_notSignedIn() throws Exception {
         mockMvc.perform(get("/api/users/0"))
                .andExpect(status().isUnauthorized());
     }
 }
-
-

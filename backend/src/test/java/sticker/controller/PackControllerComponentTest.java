@@ -14,6 +14,7 @@ import sticker.service.PackService;
 import java.util.List;
 import java.util.Optional;
 
+import static io.qameta.allure.Allure.step;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
@@ -31,14 +32,17 @@ class PackControllerComponentTest {
 
     @Test
     public void testGetPackById() {
+        step("Create mock pack");
         Pack pack = new Pack();
         pack.setId(1);
         pack.setAuthor("@test");
         pack.setDescription("test pack");
         when(packService.getPackById(1)).thenReturn(Optional.of(pack));
 
+        step("Get pack");
         Pack actualPack = controller.getPack(1);
 
+        step("Assert result");
         assertEquals("@test", actualPack.getAuthor());
         assertEquals("test pack", actualPack.getDescription());
     }

@@ -4,3 +4,5 @@
 target
 backend/src/main/resources/static
 client/node
+backend/allure-results/
+backend/.allure
