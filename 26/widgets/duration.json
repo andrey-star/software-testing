@@ -1,0 +1,101 @@
+[ {
+  "uid" : "be86c5a4f1e37ac4",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1638184356999,
+    "stop" : 1638184357020,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb0636b6abaa4c16",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1638184356473,
+    "stop" : 1638184356649,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a357aa4a527812",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1638184374219,
+    "stop" : 1638184374382,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13de559aa47e79c4",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1638184356857,
+    "stop" : 1638184356959,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89ac7482e582152",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1638184357662,
+    "stop" : 1638184357677,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a585856771e4f4",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1638184374182,
+    "stop" : 1638184374216,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72430ac288cbcbae",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1638184356653,
+    "stop" : 1638184356855,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdfe7e5effb58e08",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1638184357681,
+    "stop" : 1638184357684,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2de3f1037ef8595",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1638184356087,
+    "stop" : 1638184356316,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56a64c14c17c8318",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1638184356359,
+    "stop" : 1638184356469,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

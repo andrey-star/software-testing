@@ -1,0 +1,116 @@
+{
+  "uid" : "c89ac7482e582152",
+  "name" : "testGetPackById()",
+  "fullName" : "sticker.controller.PackControllerComponentTest.testGetPackById",
+  "historyId" : "19c36b3472dcac6a2744715db673eb30",
+  "time" : {
+    "start" : 1638184357662,
+    "stop" : 1638184357677,
+    "duration" : 15
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create mock pack",
+      "time" : {
+        "start" : 1638184357665,
+        "stop" : 1638184357665,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Get pack",
+      "time" : {
+        "start" : 1638184357674,
+        "stop" : 1638184357674,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Assert result",
+      "time" : {
+        "start" : 1638184357675,
+        "stop" : 1638184357675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.controller.PackControllerComponentTest]/[method:testGetPackById()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-448"
+  }, {
+    "name" : "thread",
+    "value" : "2908@fv-az101-448.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetPackById"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.controller.PackControllerComponentTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c89ac7482e582152.json",
+  "parameterValues" : [ ]
+}

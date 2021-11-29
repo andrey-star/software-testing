@@ -1,0 +1,202 @@
+{
+  "52ca10c922110f8a1efd7bc89fd2641c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13de559aa47e79c4",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/13de559aa47e79c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356857,
+        "stop" : 1638184356959,
+        "duration" : 102
+      }
+    } ]
+  },
+  "e82e9431fe5cdfda7652c061e70cc174" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72430ac288cbcbae",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/72430ac288cbcbae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356653,
+        "stop" : 1638184356855,
+        "duration" : 202
+      }
+    } ]
+  },
+  "de7367e277d0d8f442f27c16fbf41b3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88a357aa4a527812",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/88a357aa4a527812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184374219,
+        "stop" : 1638184374382,
+        "duration" : 163
+      }
+    } ]
+  },
+  "71a3eb7bacf6d6b80e5058a94ff60285" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2de3f1037ef8595",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/f2de3f1037ef8595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356087,
+        "stop" : 1638184356316,
+        "duration" : 229
+      }
+    } ]
+  },
+  "19c36b3472dcac6a2744715db673eb30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c89ac7482e582152",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/c89ac7482e582152",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184357662,
+        "stop" : 1638184357677,
+        "duration" : 15
+      }
+    } ]
+  },
+  "22bbc2d8bf5fd0beda2f0d698b77b54b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be86c5a4f1e37ac4",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/be86c5a4f1e37ac4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356999,
+        "stop" : 1638184357020,
+        "duration" : 21
+      }
+    } ]
+  },
+  "5540490deb80d02a8241acdbccecf726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56a64c14c17c8318",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/56a64c14c17c8318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356359,
+        "stop" : 1638184356469,
+        "duration" : 110
+      }
+    } ]
+  },
+  "17dbd79cd9d4086a682cfb6b7d2aae03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb0636b6abaa4c16",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/bb0636b6abaa4c16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184356473,
+        "stop" : 1638184356649,
+        "duration" : 176
+      }
+    } ]
+  },
+  "1aafc91174e4030d1cf5cea274b23271" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdfe7e5effb58e08",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/bdfe7e5effb58e08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184357681,
+        "stop" : 1638184357684,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e20985d31f6fc0cebc70c3a3e00070f9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a585856771e4f4",
+      "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/a585856771e4f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638184374182,
+        "stop" : 1638184374216,
+        "duration" : 34
+      }
+    } ]
+  }
+}

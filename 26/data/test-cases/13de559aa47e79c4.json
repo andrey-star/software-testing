@@ -1,0 +1,61 @@
+{
+  "uid" : "13de559aa47e79c4",
+  "name" : "testSignIn()",
+  "fullName" : "sticker.auth.AuthControllerTest.testSignIn",
+  "historyId" : "52ca10c922110f8a1efd7bc89fd2641c",
+  "time" : {
+    "start" : 1638184356857,
+    "stop" : 1638184356959,
+    "duration" : 102
+  },
+  "description" : "Sign in with {username: 'user', 'password': 'user'}",
+  "descriptionHtml" : "<p>Sign in with {username: 'user', 'password': 'user'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testSignIn()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-448"
+  }, {
+    "name" : "thread",
+    "value" : "2908@fv-az101-448.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSignIn"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13de559aa47e79c4.json",
+  "parameterValues" : [ ]
+}
