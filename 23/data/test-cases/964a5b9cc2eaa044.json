@@ -1,0 +1,61 @@
+{
+  "uid" : "964a5b9cc2eaa044",
+  "name" : "testRegister_UserExists()",
+  "fullName" : "sticker.auth.AuthControllerTest.testRegister_UserExists",
+  "historyId" : "5540490deb80d02a8241acdbccecf726",
+  "time" : {
+    "start" : 1638181850222,
+    "stop" : 1638181850356,
+    "duration" : 134
+  },
+  "description" : "Fail to register existing username {username: 'user', 'password': 'user'}",
+  "descriptionHtml" : "<p>Fail to register existing username {username: 'user', 'password': 'user'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testRegister_UserExists()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-377"
+  }, {
+    "name" : "thread",
+    "value" : "3105@fv-az99-377.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister_UserExists"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "964a5b9cc2eaa044.json",
+  "parameterValues" : [ ]
+}

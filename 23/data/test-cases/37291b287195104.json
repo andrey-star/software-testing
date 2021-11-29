@@ -1,0 +1,61 @@
+{
+  "uid" : "37291b287195104",
+  "name" : "testSignIn_InvalidPassword()",
+  "fullName" : "sticker.auth.AuthControllerTest.testSignIn_InvalidPassword",
+  "historyId" : "e82e9431fe5cdfda7652c061e70cc174",
+  "time" : {
+    "start" : 1638181850577,
+    "stop" : 1638181850779,
+    "duration" : 202
+  },
+  "description" : "Fail sign in with existing user and invalid password {username: 'user', 'password': 'not-password'}",
+  "descriptionHtml" : "<p>Fail sign in with existing user and invalid password {username: 'user', 'password': 'not-password'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testSignIn_InvalidPassword()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-377"
+  }, {
+    "name" : "thread",
+    "value" : "3105@fv-az99-377.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSignIn_InvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37291b287195104.json",
+  "parameterValues" : [ ]
+}
