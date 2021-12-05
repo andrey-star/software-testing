@@ -1,0 +1,159 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "sticker",
+    "children" : [ {
+      "name" : "StickerApplicationTests",
+      "children" : [ {
+        "name" : "contextLoads",
+        "uid" : "a4c8565537bf55f3",
+        "parentUid" : "4a7a0b4174e184953690b682de654dee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712993328,
+          "stop" : 1638712993520,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a7a0b4174e184953690b682de654dee"
+    }, {
+      "name" : "auth.AuthControllerTest",
+      "children" : [ {
+        "name" : "testSignIn_UserDoesntExist",
+        "uid" : "d330681614c4d874",
+        "parentUid" : "ef025914e5afd13343c7a44405ba63d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712993640,
+          "stop" : 1638712993791,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegister_UserExists",
+        "uid" : "5ac73f4b7cbde4",
+        "parentUid" : "ef025914e5afd13343c7a44405ba63d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712993799,
+          "stop" : 1638712993947,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegister",
+        "uid" : "75d5dfb92fea225d",
+        "parentUid" : "ef025914e5afd13343c7a44405ba63d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712993953,
+          "stop" : 1638712994204,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSignIn_InvalidPassword",
+        "uid" : "8fa4f53979547cc6",
+        "parentUid" : "ef025914e5afd13343c7a44405ba63d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712994210,
+          "stop" : 1638712994448,
+          "duration" : 238
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSignIn",
+        "uid" : "e7c137d674f52289",
+        "parentUid" : "ef025914e5afd13343c7a44405ba63d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712994453,
+          "stop" : 1638712994573,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "auth.AuthControllerTest"
+    }, {
+      "name" : "controller",
+      "children" : [ {
+        "name" : "UserControllerTest",
+        "children" : [ {
+          "name" : "testCurrentUser_notSignedIn",
+          "uid" : "d6af878178d38fbf",
+          "parentUid" : "2bfe0a1a40eb3fd597fc28dd8dd66434",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638713011914,
+            "stop" : 1638713011960,
+            "duration" : 46
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testCurrentUser",
+          "uid" : "d8a2c9bba94d7984",
+          "parentUid" : "2bfe0a1a40eb3fd597fc28dd8dd66434",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638713011966,
+            "stop" : 1638713012143,
+            "duration" : 177
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2bfe0a1a40eb3fd597fc28dd8dd66434"
+      }, {
+        "name" : "PackControllerComponentTest",
+        "children" : [ {
+          "name" : "testGetPackById",
+          "uid" : "4841cb5ec6e0e4f4",
+          "parentUid" : "415a203a32b966183e0d60f2c423a669",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638713013026,
+            "stop" : 1638713013046,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGetPacks",
+          "uid" : "98c68d7871512e2f",
+          "parentUid" : "415a203a32b966183e0d60f2c423a669",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638713013051,
+            "stop" : 1638713013057,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "415a203a32b966183e0d60f2c423a669"
+      } ],
+      "uid" : "35b0a778d7fec24578ddd7391ba3e137"
+    } ],
+    "uid" : "7c612c7a7537a9c86740bd7902dfe717"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d8a2c9bba94d7984",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1638713011966,
+    "stop" : 1638713012143,
+    "duration" : 177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fa4f53979547cc6",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1638712994210,
+    "stop" : 1638712994448,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4841cb5ec6e0e4f4",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1638713013026,
+    "stop" : 1638713013046,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ac73f4b7cbde4",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1638712993799,
+    "stop" : 1638712993947,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6af878178d38fbf",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1638713011914,
+    "stop" : 1638713011960,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d330681614c4d874",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1638712993640,
+    "stop" : 1638712993791,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4c8565537bf55f3",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1638712993328,
+    "stop" : 1638712993520,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d5dfb92fea225d",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1638712993953,
+    "stop" : 1638712994204,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7c137d674f52289",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1638712994453,
+    "stop" : 1638712994573,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98c68d7871512e2f",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1638713013051,
+    "stop" : 1638713013057,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
