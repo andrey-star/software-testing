@@ -149,11 +149,15 @@ ___
 
 * [x] [Allure report](https://andrey-star.github.io/software-testing)
 
+___
+
 ## hw5 - Contract tests
 
 ### Bonus
 
 * [ ] Add Pact tests
+
+___
 
 ## hw6 - a11y
 
@@ -161,7 +165,7 @@ ___
 
 * [x] Fix a11y issues
 * [x] Check with Chrome Lighthouse and Mozilla
-  * Lighthouse - 100
-  * Mozilla - no issues
+    * Lighthouse - 100
+    * Mozilla - no issues
 * [x] Add tests with `axe`
     * [cypress-axe](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
