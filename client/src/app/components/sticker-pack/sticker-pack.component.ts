@@ -1,16 +1,16 @@
-import {Component} from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
-import {Observable} from 'rxjs';
-import {catchError, map, switchMap} from 'rxjs/operators';
-import {StickerPack} from '../../models/sticker-pack';
-import {StickerService} from '../../services/sticker.service';
+import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
+import { catchError, map, switchMap } from 'rxjs/operators';
+import { StickerPack } from '../../models/sticker-pack';
+import { StickerService } from '../../services/sticker.service';
 
 @Component({
   selector: 'app-sticker-pack',
   template: `
     <ng-container *ngIf="stickerPack$ | async; let pack">
       <h1>{{ pack.name }}</h1>
-      <h3>{{ pack.author }}</h3>
+      <p>{{ pack.author }}</p>
       <p>{{ pack.description }}</p>
       <img
         *ngFor="let stickerUrl of pack.stickerUrls"

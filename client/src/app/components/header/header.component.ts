@@ -3,12 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header',
   template: `
-    <mat-toolbar color="primary">
-      <span>Sticker Generator</span>
-      <span class="spacer"></span>
-      <a mat-button routerLink="/">Packs</a>
-      <a mat-button routerLink="/login">Login</a>
-    </mat-toolbar>
+    <header>
+      <mat-toolbar color="primary">
+        <span>Sticker Generator</span>
+        <span class="spacer"></span>
+        <a mat-button routerLink="/">Packs</a>
+        <a mat-button routerLink="/login">Login</a>
+      </mat-toolbar>
+    </header>
   `,
   styles: [
     `

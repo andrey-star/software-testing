@@ -43,6 +43,20 @@ describe('Sticker Generator e2e tests', () => {
       cy.contains('Packs').click();
       cy.url().should('contain', 'packs');
     });
+
+    describe('a11y with axe', () => {
+      it('Main page', () => {
+        cy.visit('/');
+        cy.injectAxe();
+        cy.checkA11y();
+      });
+
+      it('Pack page', () => {
+        cy.visit('/packs/2');
+        cy.injectAxe();
+        cy.checkA11y();
+      });
+    })
   });
 
   describe('Auth', () => {
