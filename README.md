@@ -154,3 +154,14 @@ ___
 ### Bonus
 
 * [ ] Add Pact tests
+
+## hw6 - a11y
+
+### Bonus
+
+* [x] Fix a11y issues
+* [x] Check with Chrome Lighthouse and Mozilla
+  * Lighthouse - 100
+  * Mozilla - no issues
+* [x] Add tests with `axe`
+    * [cypress-axe](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
