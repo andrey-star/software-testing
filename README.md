@@ -125,7 +125,7 @@ mvn spring-boot:run
 
 ___
 
-## hw3 - CI/CD. GitHub actions.
+## hw3 - CI/CD. GitHub Actions.
 
 ### Main
 
@@ -148,3 +148,9 @@ ___
 ### Bonus
 
 * [x] [Allure report](https://andrey-star.github.io/software-testing)
+
+## hw5 - Contract tests
+
+### Bonus
+
+* [ ] Add Pact tests
