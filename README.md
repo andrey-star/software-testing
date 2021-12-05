@@ -168,4 +168,6 @@ ___
     * Lighthouse - 100
     * Mozilla - no issues
 * [x] Add tests with `axe`
-    * [cypress-axe](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
+    * 'a11y with axe' suite
+      in [e2e test](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
+      using [cypress-axe](https://github.com/component-driven/cypress-axe)
