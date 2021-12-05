@@ -1,0 +1,101 @@
+[ {
+  "uid" : "1a2bbb404e4ee74c",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1638709416160,
+    "stop" : 1638709416340,
+    "duration" : 180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "878b7ce961b91dbf",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1638709416838,
+    "stop" : 1638709416977,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a9a1fa26d4d7f40",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1638709416344,
+    "stop" : 1638709416605,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f5f1212b60ae76f",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1638709434283,
+    "stop" : 1638709434287,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d243ac56230f9199",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1638709433450,
+    "stop" : 1638709433573,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbfa1d0d6c16a8eb",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1638709416608,
+    "stop" : 1638709416826,
+    "duration" : 218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9005fee4da5e8b",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1638709434265,
+    "stop" : 1638709434278,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9faa71dac798c93",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1638709416018,
+    "stop" : 1638709416148,
+    "duration" : 130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "706b370028176fc4",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1638709433413,
+    "stop" : 1638709433447,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4aea1a0f53a8757",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1638709415845,
+    "stop" : 1638709415957,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
