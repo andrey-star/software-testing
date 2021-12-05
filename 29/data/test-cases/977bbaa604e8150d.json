@@ -1,0 +1,99 @@
+{
+  "uid" : "977bbaa604e8150d",
+  "name" : "testSignIn()",
+  "fullName" : "sticker.auth.AuthControllerTest.testSignIn",
+  "historyId" : "52ca10c922110f8a1efd7bc89fd2641c",
+  "time" : {
+    "start" : 1638709593999,
+    "stop" : 1638709594133,
+    "duration" : 134
+  },
+  "description" : "Sign in with {username: 'user', 'password': 'user'}",
+  "descriptionHtml" : "<p>Sign in with {username: 'user', 'password': 'user'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testSignIn()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az99-576"
+  }, {
+    "name" : "thread",
+    "value" : "2698@fv-az99-576.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSignIn"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "878b7ce961b91dbf",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/28//#testresult/878b7ce961b91dbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638709416838,
+          "stop" : 1638709416977,
+          "duration" : 139
+        }
+      }, {
+        "uid" : "569cf24a410e8a3",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/27//#testresult/569cf24a410e8a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184899942,
+          "stop" : 1638184900032,
+          "duration" : 90
+        }
+      }, {
+        "uid" : "13de559aa47e79c4",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/13de559aa47e79c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184356857,
+          "stop" : 1638184356959,
+          "duration" : 102
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "977bbaa604e8150d.json",
+  "parameterValues" : [ ]
+}

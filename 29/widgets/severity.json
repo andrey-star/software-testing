@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d7e0df45af0fd202",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1638709593364,
+    "stop" : 1638709593501,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38464c20ae2bc4fc",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1638709612132,
+    "stop" : 1638709612139,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1474338132bd5c2",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1638709592816,
+    "stop" : 1638709593032,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23cd9fd305c9baa0",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1638709610965,
+    "stop" : 1638709611005,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "687bc9d4ecf15673",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1638709593505,
+    "stop" : 1638709593749,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b876c121149dce4",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1638709612106,
+    "stop" : 1638709612126,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "977bbaa604e8150d",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1638709593999,
+    "stop" : 1638709594133,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6f1d8fe1627632a",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1638709611008,
+    "stop" : 1638709611181,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "129f1d6332285725",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1638709593154,
+    "stop" : 1638709593356,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "897c771a1cebf77e",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1638709593761,
+    "stop" : 1638709593996,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,151 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "sticker.StickerApplicationTests",
+    "children" : [ {
+      "name" : "contextLoads()",
+      "uid" : "c1474338132bd5c2",
+      "parentUid" : "b99b659da77601ba6366747dca72ed12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709592816,
+        "stop" : 1638709593032,
+        "duration" : 216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b99b659da77601ba6366747dca72ed12"
+  }, {
+    "name" : "sticker.auth.AuthControllerTest",
+    "children" : [ {
+      "name" : "testSignIn_UserDoesntExist()",
+      "uid" : "129f1d6332285725",
+      "parentUid" : "2ca12cd234eb991ae6f8064deb90378b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709593154,
+        "stop" : 1638709593356,
+        "duration" : 202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testRegister_UserExists()",
+      "uid" : "d7e0df45af0fd202",
+      "parentUid" : "2ca12cd234eb991ae6f8064deb90378b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709593364,
+        "stop" : 1638709593501,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testRegister()",
+      "uid" : "687bc9d4ecf15673",
+      "parentUid" : "2ca12cd234eb991ae6f8064deb90378b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709593505,
+        "stop" : 1638709593749,
+        "duration" : 244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSignIn_InvalidPassword()",
+      "uid" : "897c771a1cebf77e",
+      "parentUid" : "2ca12cd234eb991ae6f8064deb90378b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709593761,
+        "stop" : 1638709593996,
+        "duration" : 235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testSignIn()",
+      "uid" : "977bbaa604e8150d",
+      "parentUid" : "2ca12cd234eb991ae6f8064deb90378b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709593999,
+        "stop" : 1638709594133,
+        "duration" : 134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2ca12cd234eb991ae6f8064deb90378b"
+  }, {
+    "name" : "sticker.controller.UserControllerTest",
+    "children" : [ {
+      "name" : "testCurrentUser_notSignedIn()",
+      "uid" : "23cd9fd305c9baa0",
+      "parentUid" : "5613afef597bbc2123c76766231378da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709610965,
+        "stop" : 1638709611005,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCurrentUser()",
+      "uid" : "a6f1d8fe1627632a",
+      "parentUid" : "5613afef597bbc2123c76766231378da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709611008,
+        "stop" : 1638709611181,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5613afef597bbc2123c76766231378da"
+  }, {
+    "name" : "sticker.controller.PackControllerComponentTest",
+    "children" : [ {
+      "name" : "testGetPackById()",
+      "uid" : "b876c121149dce4",
+      "parentUid" : "a7abe5950d78d630b83f98ed34016e06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709612106,
+        "stop" : 1638709612126,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testGetPacks()",
+      "uid" : "38464c20ae2bc4fc",
+      "parentUid" : "a7abe5950d78d630b83f98ed34016e06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638709612132,
+        "stop" : 1638709612139,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a7abe5950d78d630b83f98ed34016e06"
+  } ],
+  "name" : "suites"
+}
