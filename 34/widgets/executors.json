@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://andrey-star.github.io/software-testing",
+  "buildOrder" : 34,
+  "buildName" : "GitHub Actions Run #1588820626",
+  "buildUrl" : "https://github.com/andrey-star/software-testing/actions/runs/1588820626",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://andrey-star.github.io/software-testing/34/"
+} ]

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "19824cd29e13703d",
+  "name" : "testSignIn_InvalidPassword()",
+  "time" : {
+    "start" : 1639678349880,
+    "stop" : 1639678350067,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbf783f601473eeb",
+  "name" : "testSignIn()",
+  "time" : {
+    "start" : 1639678350072,
+    "stop" : 1639678350183,
+    "duration" : 111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f27ac76c6aa1021",
+  "name" : "testGetPacks()",
+  "time" : {
+    "start" : 1639678367716,
+    "stop" : 1639678367719,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "772c7c2844c052c3",
+  "name" : "testGetPackById()",
+  "time" : {
+    "start" : 1639678367695,
+    "stop" : 1639678367713,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "463e43bfacffc8af",
+  "name" : "testSignIn_UserDoesntExist()",
+  "time" : {
+    "start" : 1639678349269,
+    "stop" : 1639678349545,
+    "duration" : 276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcb72c0fab1650a7",
+  "name" : "testCurrentUser()",
+  "time" : {
+    "start" : 1639678366802,
+    "stop" : 1639678366922,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "223262432f0638",
+  "name" : "testRegister_UserExists()",
+  "time" : {
+    "start" : 1639678349599,
+    "stop" : 1639678349704,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b89ed81e6bcd385",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1639678367744,
+    "stop" : 1639678367746,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f42555dd155e6939",
+  "name" : "testCurrentUser_notSignedIn()",
+  "time" : {
+    "start" : 1639678366764,
+    "stop" : 1639678366800,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eca32c39c7a8f54f",
+  "name" : "testRegister()",
+  "time" : {
+    "start" : 1639678349711,
+    "stop" : 1639678349877,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
