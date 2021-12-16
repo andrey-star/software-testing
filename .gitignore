@@ -6,3 +6,6 @@ backend/src/main/resources/static
 client/node
 backend/allure-results/
 backend/.allure
+project/
+gatling-sandbox/
+gatling-template.g8
