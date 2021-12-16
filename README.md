@@ -171,3 +171,22 @@ ___
     * 'a11y with axe' suite
       in [e2e test](https://github.com/andrey-star/software-testing/blob/main/client/cypress/integration/spec.ts)
       using [cypress-axe](https://github.com/component-driven/cypress-axe)
+
+___
+
+## hw8 - Performance testing
+
+### Main
+
+* [x] Workshop
+    * [Part 1](https://github.com/andrey-star/software-testing/tree/main/perf/part1/myservice)
+    * [Part 2](https://github.com/andrey-star/software-testing/tree/main/perf/part2/gatling-template-http-sandbox)
+    * [Gatling snapshot](https://snapshot.raintank.io/dashboard/snapshot/VHsebCLVVXOd2me86beTUJ3Qqs0yNjqX?orgId=2)
+
+### Advanced
+
+* [ ] CI with GitHub Actions
+
+### Bonus
+
+* [ ] Allure
