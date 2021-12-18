@@ -174,6 +174,24 @@ ___
 
 ___
 
+## hw7 - Selenium. Selenide. Selenoid.
+
+### Main
+
+* [x] Selenide
+    * [e2e test](https://github.com/andrey-star/software-testing/blob/main/selenium/src/test/java/SelenideTest.java)
+
+### Advanced
+
+* [ ] Selenoid
+
+### Bonus
+
+* [ ] Allure
+* [ ] Article
+
+___
+
 ## hw8 - Performance testing
 
 ### Main
