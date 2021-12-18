@@ -1,0 +1,162 @@
+{
+  "uid" : "27bd2b6abf7b3117",
+  "name" : "testRegister()",
+  "fullName" : "sticker.auth.AuthControllerTest.testRegister",
+  "historyId" : "17dbd79cd9d4086a682cfb6b7d2aae03",
+  "time" : {
+    "start" : 1639837380498,
+    "stop" : 1639837380731,
+    "duration" : 233
+  },
+  "description" : "Register new user {username: 'user2', 'password': 'user2'}",
+  "descriptionHtml" : "<p>Register new user {username: 'user2', 'password': 'user2'}</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:sticker.auth.AuthControllerTest]/[method:testRegister()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az101-644"
+  }, {
+    "name" : "thread",
+    "value" : "2606@fv-az101-644.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister"
+  }, {
+    "name" : "suite",
+    "value" : "sticker.auth.AuthControllerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "8af032a846a2d6ed",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/35//#testresult/8af032a846a2d6ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639678599646,
+          "stop" : 1639678599836,
+          "duration" : 190
+        }
+      }, {
+        "uid" : "eca32c39c7a8f54f",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/34//#testresult/eca32c39c7a8f54f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639678349711,
+          "stop" : 1639678349877,
+          "duration" : 166
+        }
+      }, {
+        "uid" : "967c1d23e14c0407",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/33//#testresult/967c1d23e14c0407",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638713244515,
+          "stop" : 1638713244753,
+          "duration" : 238
+        }
+      }, {
+        "uid" : "a94f5991a6bbdaaa",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/32//#testresult/a94f5991a6bbdaaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638713051726,
+          "stop" : 1638713051922,
+          "duration" : 196
+        }
+      }, {
+        "uid" : "75d5dfb92fea225d",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/31//#testresult/75d5dfb92fea225d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712993953,
+          "stop" : 1638712994204,
+          "duration" : 251
+        }
+      }, {
+        "uid" : "2629ac5cdf0e5d5d",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/30//#testresult/2629ac5cdf0e5d5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638712430853,
+          "stop" : 1638712431078,
+          "duration" : 225
+        }
+      }, {
+        "uid" : "687bc9d4ecf15673",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/29//#testresult/687bc9d4ecf15673",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638709593505,
+          "stop" : 1638709593749,
+          "duration" : 244
+        }
+      }, {
+        "uid" : "4a9a1fa26d4d7f40",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/28//#testresult/4a9a1fa26d4d7f40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638709416344,
+          "stop" : 1638709416605,
+          "duration" : 261
+        }
+      }, {
+        "uid" : "7b2a07d98f23fa8e",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/27//#testresult/7b2a07d98f23fa8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184899500,
+          "stop" : 1638184899707,
+          "duration" : 207
+        }
+      }, {
+        "uid" : "bb0636b6abaa4c16",
+        "reportUrl" : "https://andrey-star.github.io/software-testing/26//#testresult/bb0636b6abaa4c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638184356473,
+          "stop" : 1638184356649,
+          "duration" : 176
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "27bd2b6abf7b3117.json",
+  "parameterValues" : [ ]
+}
